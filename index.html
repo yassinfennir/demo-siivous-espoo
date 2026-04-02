@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="PuhtausPlus Oy — Luotettava siivouspalvelu Espoossa ja Helsingissä. Kotisiivous, toimistosiivous, muuttosiivous. Pyydä ilmainen tarjous!">
+  <meta name="keywords" content="siivouspalvelu espoo, siivous helsinki, kotisiivous, toimistosiivous, muuttosiivous, ikkunanpesu, rakennussiivous">
+  <title>PuhtausPlus Oy — Luotettava Siivouspalvelu | Espoo & Helsinki</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Schema.org -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "PuhtausPlus Oy",
+    "description": "Luotettava siivouspalvelu Espoossa ja Helsingissä",
+    "url": "https://puhtausplus.fi",
+    "telephone": "+358 40 123 4567",
+    "email": "info@puhtausplus.fi",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Espoo",
+      "addressRegion": "Uusimaa",
+      "addressCountry": "FI"
+    },
+    "areaServed": ["Espoo", "Helsinki", "Vantaa", "Kauniainen"],
+    "priceRange": "€€"
+  }
+  </script>
+</head>
+<body>
+
+  <!-- NAVIGATION -->
+  <nav class="nav" id="nav">
+    <div class="container nav__inner">
+      <a href="#" class="nav__logo">
+        <span class="nav__logo-icon">&#10024;</span>
+        PuhtausPlus
+      </a>
+      <ul class="nav__links" id="navLinks">
+        <li><a href="#palvelut">Palvelut</a></li>
+        <li><a href="#miksi-me">Miksi me</a></li>
+        <li><a href="#hinnat">Hinnat</a></li>
+        <li><a href="#alue">Palvelualue</a></li>
+        <li><a href="#arvostelut">Arvostelut</a></li>
+        <li><a href="#ukk">UKK</a></li>
+      </ul>
+      <a href="#tarjouspyynto" class="btn btn--primary nav__cta">Pyydä tarjous</a>
+      <button class="nav__hamburger" id="hamburger" aria-label="Avaa valikko">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <header class="hero" id="hero">
+    <div class="container hero__inner">
+      <div class="hero__content">
+        <div class="hero__badge">Vakuutettu &amp; luotettava siivouspalvelu</div>
+        <h1 class="hero__title">Puhdas koti, <span class="text-gradient">rauhallinen mieli</span></h1>
+        <p class="hero__subtitle">
+          Ammattitaitoinen siivouspalvelu Espoossa ja pääkaupunkiseudulla.
+          Kotisiivous, toimistosiivous ja erikoispalvelut — joustavasti ja luotettavasti.
+        </p>
+        <div class="hero__actions">
+          <a href="#tarjouspyynto" class="btn btn--primary btn--lg">Pyydä ilmainen tarjous</a>
+          <a href="tel:+358401234567" class="btn btn--outline btn--lg">Soita: 040 123 4567</a>
+        </div>
+        <div class="hero__trust">
+          <div class="hero__trust-item">
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M10 0L12.5 7.5H20L14 12L16 20L10 15.5L4 20L6 12L0 7.5H7.5L10 0Z" fill="#0D9488"/></svg>
+            <span>4.9/5 arvosana</span>
+          </div>
+          <div class="hero__trust-item">
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><circle cx="10" cy="10" r="9" stroke="#0D9488" stroke-width="2"/><path d="M6 10L9 13L14 7" stroke="#0D9488" stroke-width="2" stroke-linecap="round"/></svg>
+            <span>500+ tyytyväistä asiakasta</span>
+          </div>
+          <div class="hero__trust-item">
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><rect x="1" y="3" width="18" height="14" rx="2" stroke="#0D9488" stroke-width="2"/><path d="M1 7H19" stroke="#0D9488" stroke-width="2"/></svg>
+            <span>Kotitalousvähennys</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero__image">
+        <div class="hero__image-placeholder">
+          <svg width="120" height="120" viewBox="0 0 120 120" fill="none">
+            <circle cx="60" cy="60" r="55" fill="#CCFBF1" stroke="#0D9488" stroke-width="2"/>
+            <path d="M40 75L55 45L70 65L80 50L95 75H40Z" fill="#0D9488" opacity="0.3"/>
+            <circle cx="50" cy="40" r="5" fill="#0D9488" opacity="0.5"/>
+            <text x="60" y="95" text-anchor="middle" fill="#0D9488" font-size="10" font-family="Inter">Kuva tähän</text>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- TRUST BAR -->
+  <section class="trust-bar">
+    <div class="container">
+      <div class="trust-bar__inner">
+        <div class="trust-bar__item">
+          <span class="trust-bar__icon">&#128737;</span>
+          <div>
+            <strong>Vakuutettu</strong>
+            <span>Täysi vastuuvakuutus</span>
+          </div>
+        </div>
+        <div class="trust-bar__item">
+          <span class="trust-bar__icon">&#9989;</span>
+          <div>
+            <strong>Y-tunnus</strong>
+            <span>Rekisteröity yritys</span>
+          </div>
+        </div>
+        <div class="trust-bar__item">
+          <span class="trust-bar__icon">&#128154;</span>
+          <div>
+            <strong>Ympäristöystävällinen</strong>
+            <span>Ekologiset aineet</span>
+          </div>
+        </div>
+        <div class="trust-bar__item">
+          <span class="trust-bar__icon">&#128338;</span>
+          <div>
+            <strong>Joustava</strong>
+            <span>Sopii aikatauluusi</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="services" id="palvelut">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Palvelumme</span>
+        <h2 class="section-title">Kattavat siivouspalvelut</h2>
+        <p class="section-desc">Tarjoamme monipuolisia siivouspalveluja niin koteihin kuin yrityksille. Jokainen palvelu räätälöidään tarpeesi mukaan.</p>
+      </div>
+      <div class="services__grid">
+
+        <div class="service-card">
+          <div class="service-card__icon">
+            <svg width="40" height="40" viewBox="0 0 40 40" fill="none"><rect x="5" y="10" width="30" height="22" rx="3" stroke="#0D9488" stroke-width="2.5"/><path d="M12 10V6C12 4.34 13.34 3 15 3H25C26.66 3 28 4.34 28 6V10" stroke="#0D9488" stroke-width="2.5"/><path d="M5 18H35" stroke="#0D9488" stroke-width="2.5"/></svg>
+          </div>
+          <h3 class="service-card__title">Kotisiivous</h3>
+          <p class="service-card__desc">Säännöllinen tai kertaluonteinen kotisiivous. Sisältää imuroinnin, moppauksen, keittiön, kylpyhuoneen ja pölyjen pyyhinnän.</p>
+          <span class="service-card__price">alkaen 35 €/h</span>
+        </div>
+
+        <div class="service-card">
+          <div class="service-card__icon">
+            <svg width="40" height="40" viewBox="0 0 40 40" fill="none"><rect x="4" y="8" width="32" height="24" rx="3" stroke="#0D9488" stroke-width="2.5"/><path d="M4 15H36" stroke="#0D9488" stroke-width="2.5"/><rect x="10" y="20" width="8" height="6" rx="1" stroke="#0D9488" stroke-width="2"/><rect x="22" y="20" width="8" height="6" rx="1" stroke="#0D9488" stroke-width="2"/></svg>
+          </div>
+          <h3 class="service-card__title">Toimistosiivous</h3>
+          <p class="service-card__desc">Puhdas ja viihtyisä työympäristö parantaa tuottavuutta. Päivittäinen, viikoittainen tai kuukausittainen sopimus.</p>
+          <span class="service-card__price">Tarjouspyynnöllä</span>
+        </div>
+
+        <div class="service-card">
+          <div class="service-card__icon">
+            <svg width="40" height="40" viewBox="0 0 40 40" fill="none"><rect x="6" y="14" width="28" height="20" rx="2" stroke="#0D9488" stroke-width="2.5"/><path d="M6 14L20 4L34 14" stroke="#0D9488" stroke-width="2.5" stroke-linejoin="round"/><rect x="16" y="24" width="8" height="10" stroke="#0D9488" stroke-width="2"/></svg>
+          </div>
+          <h3 class="service-card__title">Muuttosiivous</h3>
+          <p class="service-card__desc">Perusteellinen siivous muuton yhteydessä. Varmistamme, että asunto on moitteettomassa kunnossa luovutukseen.</p>
+          <span class="service-card__price">alkaen 199 €</span>
+        </div>
+
+        <div class="service-card">
+          <div class="service-card__icon">
+            <svg width="40" height="40" viewBox="0 0 40 40" fill="none"><rect x="8" y="5" width="24" height="30" rx="2" stroke="#0D9488" stroke-width="2.5"/><path d="M8 5H32" stroke="#0D9488" stroke-width="2.5"/><line x1="14" y1="15" x2="26" y2="15" stroke="#0D9488" stroke-width="2" stroke-dasharray="2 2"/><line x1="14" y1="21" x2="26" y2="21" stroke="#0D9488" stroke-width="2" stroke-dasharray="2 2"/><line x1="14" y1="27" x2="26" y2="27" stroke="#0D9488" stroke-width="2" stroke-dasharray="2 2"/></svg>
+          </div>
+          <h3 class="service-card__title">Ikkunanpesu</h3>
+          <p class="service-card__desc">Kirkkaat ikkunat koko vuoden ympäri. Sisä- ja ulkopinnat, karmit ja puitteet mukaan lukien.</p>
+          <span class="service-card__price">alkaen 5 €/ikkuna</span>
+        </div>
+
+        <div class="service-card">
+          <div class="service-card__icon">
+            <svg width="40" height="40" viewBox="0 0 40 40" fill="none"><path d="M8 34L8 12L20 4L32 12V34" stroke="#0D9488" stroke-width="2.5" stroke-linejoin="round"/><rect x="14" y="20" width="12" height="14" stroke="#0D9488" stroke-width="2"/><path d="M5 34H35" stroke="#0D9488" stroke-width="2.5"/></svg>
+          </div>
+          <h3 class="service-card__title">Rakennussiivous</h3>
+          <p class="service-card__desc">Remontin tai rakennusprojektin jälkeinen ammattisiivous. Pöly, suojaukset ja jäljet pois tehokkaasti.</p>
+          <span class="service-card__price">Tarjouspyynnöllä</span>
+        </div>
+
+        <div class="service-card service-card--cta">
+          <div class="service-card__icon">
+            <svg width="40" height="40" viewBox="0 0 40 40" fill="none"><circle cx="20" cy="20" r="16" stroke="#0D9488" stroke-width="2.5"/><path d="M20 12V28M12 20H28" stroke="#0D9488" stroke-width="2.5" stroke-linecap="round"/></svg>
+          </div>
+          <h3 class="service-card__title">Tarvitsetko jotain muuta?</h3>
+          <p class="service-card__desc">Räätälöimme palvelun juuri sinun tarpeisiisi. Ota yhteyttä niin suunnitellaan yhdessä!</p>
+          <a href="#tarjouspyynto" class="btn btn--primary">Ota yhteyttä</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY CHOOSE US -->
+  <section class="why-us" id="miksi-me">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Miksi PuhtausPlus</span>
+        <h2 class="section-title">Luotettavuus on kaiken perusta</h2>
+        <p class="section-desc">Valitsemalla meidät saat ammattitaitoisen, vakuutetun ja joustavan siivouspalvelun, johon voit luottaa.</p>
+      </div>
+      <div class="why-us__grid">
+
+        <div class="why-card">
+          <div class="why-card__number">01</div>
+          <h3 class="why-card__title">Vakuutettu palvelu</h3>
+          <p class="why-card__desc">Meillä on kattava vastuuvakuutus. Työskentely on turvallista niin sinulle kuin meille.</p>
+        </div>
+
+        <div class="why-card">
+          <div class="why-card__number">02</div>
+          <h3 class="why-card__title">Luotettava ja täsmällinen</h3>
+          <p class="why-card__desc">Saavumme aina sovitusti. 500+ tyytyväistä asiakasta puhuu puolestaan.</p>
+        </div>
+
+        <div class="why-card">
+          <div class="why-card__number">03</div>
+          <h3 class="why-card__title">Joustava aikataulu</h3>
+          <p class="why-card__desc">Sopimme siivouksen sinulle parhaiten sopivaan aikaan — myös iltaisin ja viikonloppuisin.</p>
+        </div>
+
+        <div class="why-card">
+          <div class="why-card__number">04</div>
+          <h3 class="why-card__title">Kotitalousvähennys</h3>
+          <p class="why-card__desc">Palvelumme oikeuttaa kotitalousvähennykseen. Säästät jopa 40% kustannuksista.</p>
+        </div>
+
+        <div class="why-card">
+          <div class="why-card__number">05</div>
+          <h3 class="why-card__title">Ekologiset aineet</h3>
+          <p class="why-card__desc">Käytämme ympäristöystävällisiä ja allergiatesteduja puhdistusaineita.</p>
+        </div>
+
+        <div class="why-card">
+          <div class="why-card__number">06</div>
+          <h3 class="why-card__title">Tyytyväisyystakuu</h3>
+          <p class="why-card__desc">Jos et ole tyytyväinen, korjaamme asian veloituksetta. Se on meidän lupauksemme.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PRICING -->
+  <section class="pricing" id="hinnat">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Hinnasto</span>
+        <h2 class="section-title">Selkeä ja reilu hinnoittelu</h2>
+        <p class="section-desc">Ei piilokustannuksia. Hinta sisältää työn, aineet ja välineet. Kotitalousvähennyskelpoinen.</p>
+      </div>
+      <div class="pricing__grid">
+
+        <div class="pricing-card">
+          <div class="pricing-card__header">
+            <h3>Kotisiivous</h3>
+            <p>Säännöllinen tai kertakäynti</p>
+          </div>
+          <div class="pricing-card__price">
+            <span class="pricing-card__amount">35 €</span>
+            <span class="pricing-card__unit">/tunti</span>
+          </div>
+          <ul class="pricing-card__features">
+            <li>Imurointi ja moppaus</li>
+            <li>Keittiön siivous</li>
+            <li>Kylpyhuoneen siivous</li>
+            <li>Pölyjen pyyhintä</li>
+            <li>Roskien vienti</li>
+            <li>Sovitut erikoistehtävät</li>
+          </ul>
+          <a href="#tarjouspyynto" class="btn btn--primary btn--full">Varaa kotisiivous</a>
+          <p class="pricing-card__note">Min. 2h. Kotitalousvähennys mahdollinen.</p>
+        </div>
+
+        <div class="pricing-card pricing-card--featured">
+          <div class="pricing-card__badge">Suosituin</div>
+          <div class="pricing-card__header">
+            <h3>Muuttosiivous</h3>
+            <p>Perusteellinen loppusiivous</p>
+          </div>
+          <div class="pricing-card__price">
+            <span class="pricing-card__amount">199 €</span>
+            <span class="pricing-card__unit">alkaen</span>
+          </div>
+          <ul class="pricing-card__features">
+            <li>Kaikki pinnat ja kaapit</li>
+            <li>Keittiö perusteellisesti</li>
+            <li>Kylpyhuone &amp; WC</li>
+            <li>Ikkunat sisäpuolelta</li>
+            <li>Lattiat ja listat</li>
+            <li>Parveke / varastotila</li>
+          </ul>
+          <a href="#tarjouspyynto" class="btn btn--primary btn--full">Pyydä tarjous</a>
+          <p class="pricing-card__note">Hinta riippuu asunnon koosta (m2).</p>
+        </div>
+
+        <div class="pricing-card">
+          <div class="pricing-card__header">
+            <h3>Toimistosiivous</h3>
+            <p>Yrityksille räätälöity</p>
+          </div>
+          <div class="pricing-card__price">
+            <span class="pricing-card__amount">Sopimushinta</span>
+          </div>
+          <ul class="pricing-card__features">
+            <li>Päivittäinen ylläpito</li>
+            <li>Viikoittainen perussiivous</li>
+            <li>Kuukausittainen syväpuhdistus</li>
+            <li>Joustava sopimus</li>
+            <li>Oma yhteyshenkilö</li>
+            <li>Raportit ja laadunvalvonta</li>
+          </ul>
+          <a href="#tarjouspyynto" class="btn btn--primary btn--full">Pyydä tarjous</a>
+          <p class="pricing-card__note">Veloitus m2-pohjainen tai tuntiperusteinen.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICE AREA -->
+  <section class="area" id="alue">
+    <div class="container">
+      <div class="area__inner">
+        <div class="area__content">
+          <span class="section-tag">Palvelualue</span>
+          <h2 class="section-title">Palvelemme koko pääkaupunkiseutua</h2>
+          <p class="area__desc">
+            Toimimme pääasiallisesti Espoossa ja Helsingissä, mutta palvelemme myös Vantaata ja Kauniaista.
+            Kysy saatavuutta juuri sinun alueellasi!
+          </p>
+          <div class="area__locations">
+            <div class="area__location">
+              <span class="area__dot area__dot--primary"></span>
+              <div>
+                <strong>Espoo</strong>
+                <span>Koko kaupungin alue</span>
+              </div>
+            </div>
+            <div class="area__location">
+              <span class="area__dot area__dot--primary"></span>
+              <div>
+                <strong>Helsinki</strong>
+                <span>Koko kaupungin alue</span>
+              </div>
+            </div>
+            <div class="area__location">
+              <span class="area__dot area__dot--secondary"></span>
+              <div>
+                <strong>Vantaa</strong>
+                <span>Lähialueet</span>
+              </div>
+            </div>
+            <div class="area__location">
+              <span class="area__dot area__dot--secondary"></span>
+              <div>
+                <strong>Kauniainen</strong>
+                <span>Koko alue</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="area__map">
+          <div class="area__map-placeholder">
+            <svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <!-- Simplified map illustration -->
+              <rect width="400" height="300" rx="16" fill="#F0FDFA"/>
+              <ellipse cx="180" cy="140" rx="120" ry="90" fill="#CCFBF1" stroke="#0D9488" stroke-width="1.5"/>
+              <ellipse cx="260" cy="120" rx="80" ry="60" fill="#CCFBF1" stroke="#0D9488" stroke-width="1.5" stroke-dasharray="4 4"/>
+              <ellipse cx="220" cy="180" rx="70" ry="50" fill="#CCFBF1" stroke="#0D9488" stroke-width="1.5" stroke-dasharray="4 4"/>
+              <!-- City markers -->
+              <circle cx="150" cy="140" r="8" fill="#0D9488"/>
+              <text x="150" y="160" text-anchor="middle" fill="#0F766E" font-size="12" font-weight="600" font-family="Inter">Espoo</text>
+              <circle cx="250" cy="110" r="8" fill="#0D9488"/>
+              <text x="250" y="130" text-anchor="middle" fill="#0F766E" font-size="12" font-weight="600" font-family="Inter">Helsinki</text>
+              <circle cx="260" cy="170" r="5" fill="#5EEAD4"/>
+              <text x="260" y="188" text-anchor="middle" fill="#0F766E" font-size="10" font-family="Inter">Vantaa</text>
+              <circle cx="175" cy="115" r="5" fill="#5EEAD4"/>
+              <text x="175" y="108" text-anchor="middle" fill="#0F766E" font-size="10" font-family="Inter">Kauniainen</text>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- REVIEWS -->
+  <section class="reviews" id="arvostelut">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Arvostelut</span>
+        <h2 class="section-title">Asiakkaamme kertovat</h2>
+        <p class="section-desc">Yli 500 tyytyväistä asiakasta luottaa palveluumme. Tässä muutama heidän kokemuksistaan.</p>
+      </div>
+      <div class="reviews__grid">
+
+        <div class="review-card">
+          <div class="review-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p class="review-card__text">"Todella luotettava ja perusteellinen siivouspalvelu. Koti on aina niin puhdas siivouksen jälkeen, että tekee mieli tulla kotiin. Suosittelen lämpimästi!"</p>
+          <div class="review-card__author">
+            <div class="review-card__avatar">MK</div>
+            <div>
+              <strong>Maria K.</strong>
+              <span>Espoo, Tapiola</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="review-card">
+          <div class="review-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p class="review-card__text">"Muuttosiivous oli tehty niin hyvin, että vuokranantaja kehui. Olen käyttänyt monia siivouspalveluja, mutta tämä oli ylivoimaisesti paras kokemus."</p>
+          <div class="review-card__author">
+            <div class="review-card__avatar">JH</div>
+            <div>
+              <strong>Janne H.</strong>
+              <span>Helsinki, Kallio</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="review-card">
+          <div class="review-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p class="review-card__text">"Toimistomme on ollut puhtaampaa kuin koskaan. Ammattitaitoinen ja ystävällinen tiimi. Erityisesti pidän siitä, miten joustavasti he sopeutuvat aikatauluumme."</p>
+          <div class="review-card__author">
+            <div class="review-card__avatar">AL</div>
+            <div>
+              <strong>Anna L.</strong>
+              <span>Espoo, Leppävaara</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="review-card">
+          <div class="review-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p class="review-card__text">"Käytän PuhtausPlus-palvelua joka toinen viikko ja olen todella tyytyväinen. Siivoojat ovat aina ystävällisiä ja tekevät työnsä huolellisesti. Hinta-laatusuhde on erinomainen."</p>
+          <div class="review-card__author">
+            <div class="review-card__avatar">TN</div>
+            <div>
+              <strong>Timo N.</strong>
+              <span>Vantaa, Tikkurila</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- QUOTE FORM -->
+  <section class="quote" id="tarjouspyynto">
+    <div class="container">
+      <div class="quote__inner">
+        <div class="quote__content">
+          <span class="section-tag section-tag--light">Ilmainen tarjouspyyntö</span>
+          <h2 class="quote__title">Pyydä tarjous — vastaamme 24h sisällä</h2>
+          <p class="quote__desc">Täytä lomake niin otamme sinuun yhteyttä mahdollisimman pian. Tarjouksen pyytäminen ei sido sinua mihinkään.</p>
+          <div class="quote__benefits">
+            <div class="quote__benefit">
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><circle cx="10" cy="10" r="9" stroke="#5EEAD4" stroke-width="2"/><path d="M6 10L9 13L14 7" stroke="#5EEAD4" stroke-width="2" stroke-linecap="round"/></svg>
+              <span>Ilmainen ja sitoumukseton</span>
+            </div>
+            <div class="quote__benefit">
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><circle cx="10" cy="10" r="9" stroke="#5EEAD4" stroke-width="2"/><path d="M6 10L9 13L14 7" stroke="#5EEAD4" stroke-width="2" stroke-linecap="round"/></svg>
+              <span>Vastaus 24 tunnin sisällä</span>
+            </div>
+            <div class="quote__benefit">
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><circle cx="10" cy="10" r="9" stroke="#5EEAD4" stroke-width="2"/><path d="M6 10L9 13L14 7" stroke="#5EEAD4" stroke-width="2" stroke-linecap="round"/></svg>
+              <span>Kotitalousvähennyskelpoinen</span>
+            </div>
+          </div>
+        </div>
+        <form class="quote__form" id="quoteForm" action="#" method="POST">
+          <div class="form-group">
+            <label for="name">Nimi *</label>
+            <input type="text" id="name" name="name" placeholder="Etunimi Sukunimi" required>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="email">Sähköposti *</label>
+              <input type="email" id="email" name="email" placeholder="nimi@esimerkki.fi" required>
+            </div>
+            <div class="form-group">
+              <label for="phone">Puhelin</label>
+              <input type="tel" id="phone" name="phone" placeholder="040 123 4567">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="service">Palvelu *</label>
+            <select id="service" name="service" required>
+              <option value="" disabled selected>Valitse palvelu</option>
+              <option value="kotisiivous">Kotisiivous</option>
+              <option value="toimistosiivous">Toimistosiivous</option>
+              <option value="muuttosiivous">Muuttosiivous</option>
+              <option value="ikkunanpesu">Ikkunanpesu</option>
+              <option value="rakennussiivous">Rakennussiivous</option>
+              <option value="muu">Muu palvelu</option>
+            </select>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="area">Kaupunki</label>
+              <select id="area" name="area">
+                <option value="" disabled selected>Valitse kaupunki</option>
+                <option value="espoo">Espoo</option>
+                <option value="helsinki">Helsinki</option>
+                <option value="vantaa">Vantaa</option>
+                <option value="kauniainen">Kauniainen</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="size">Asunnon koko (m2)</label>
+              <input type="number" id="size" name="size" placeholder="esim. 65">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="message">Lisätietoja</label>
+            <textarea id="message" name="message" rows="4" placeholder="Kerro meille lisää tarpeistasi..."></textarea>
+          </div>
+          <button type="submit" class="btn btn--primary btn--full btn--lg">Lähetä tarjouspyyntö</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="faq" id="ukk">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Usein kysyttyä</span>
+        <h2 class="section-title">Vastauksia yleisimpiin kysymyksiin</h2>
+      </div>
+      <div class="faq__list">
+
+        <div class="faq__item">
+          <button class="faq__question" aria-expanded="false">
+            <span>Kuinka usein siivous tulisi tehdä?</span>
+            <svg class="faq__chevron" width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M5 8L10 13L15 8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          </button>
+          <div class="faq__answer">
+            <p>Se riippuu tarpeistasi ja kotitaloutesi koosta. Suosituimmat vaihtoehdot ovat viikoittainen tai joka toinen viikko. Teemme myös kertasiivouksia tarvittaessa.</p>
+          </div>
+        </div>
+
+        <div class="faq__item">
+          <button class="faq__question" aria-expanded="false">
+            <span>Tuotteko omat siivousaineet ja -välineet?</span>
+            <svg class="faq__chevron" width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M5 8L10 13L15 8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          </button>
+          <div class="faq__answer">
+            <p>Kyllä! Tuomme mukanamme kaikki tarvittavat ekologiset siivousaineet ja ammattitason välineet. Hinta sisältää aineet ja välineet.</p>
+          </div>
+        </div>
+
+        <div class="faq__item">
+          <button class="faq__question" aria-expanded="false">
+            <span>Miten kotitalousvähennys toimii?</span>
+            <svg class="faq__chevron" width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M5 8L10 13L15 8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          </button>
+          <div class="faq__answer">
+            <p>Kotitalousvähennys on verohyöty, jolla voit vähentää kotitaloustyön kustannuksia verotuksessa. Voit saada jopa 40% alennuksen työn osuudesta. Toimitamme tarvittavat tositteet verottajaa varten.</p>
+          </div>
+        </div>
+
+        <div class="faq__item">
+          <button class="faq__question" aria-expanded="false">
+            <span>Onko palvelunne vakuutettu?</span>
+            <svg class="faq__chevron" width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M5 8L10 13L15 8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          </button>
+          <div class="faq__answer">
+            <p>Kyllä. Meillä on kattava vastuuvakuutus, joka kattaa mahdolliset vahingot työn aikana. Voit luottaa siihen, että omaisuutesi on turvassa.</p>
+          </div>
+        </div>
+
+        <div class="faq__item">
+          <button class="faq__question" aria-expanded="false">
+            <span>Miten voin peruuttaa tai muuttaa varausta?</span>
+            <svg class="faq__chevron" width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M5 8L10 13L15 8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          </button>
+          <div class="faq__answer">
+            <p>Peruutus tai muutos on maksuton, kun se tehdään vähintään 24 tuntia ennen sovittua aikaa. Ota yhteyttä puhelimitse tai sähköpostilla.</p>
+          </div>
+        </div>
+
+        <div class="faq__item">
+          <button class="faq__question" aria-expanded="false">
+            <span>Pitääkö minun olla kotona siivouksen aikana?</span>
+            <svg class="faq__chevron" width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M5 8L10 13L15 8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          </button>
+          <div class="faq__answer">
+            <p>Ei tarvitse! Monet asiakkaamme jättävät avaimen tai antavat ovikoodin. Siivoojamme ovat luotettavia ja tarkastettuja ammattilaisia.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta">
+    <div class="container">
+      <div class="cta__inner">
+        <h2 class="cta__title">Valmis nauttimaan puhtaasta kodista?</h2>
+        <p class="cta__desc">Ota yhteyttä jo tänään ja saat ensimmäisen siivouksen -15% alennuksella!</p>
+        <div class="cta__actions">
+          <a href="#tarjouspyynto" class="btn btn--white btn--lg">Pyydä ilmainen tarjous</a>
+          <a href="tel:+358401234567" class="btn btn--outline-white btn--lg">Soita: 040 123 4567</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+
+        <div class="footer__col">
+          <a href="#" class="footer__logo">
+            <span class="nav__logo-icon">&#10024;</span>
+            PuhtausPlus Oy
+          </a>
+          <p class="footer__desc">Luotettava ja ammattitaitoinen siivouspalvelu Espoossa ja pääkaupunkiseudulla. Vakuutettu, joustava ja ympäristöystävällinen.</p>
+          <div class="footer__social">
+            <a href="#" aria-label="Facebook">
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M10 1C5.03 1 1 5.03 1 10C1 14.97 5.03 19 10 19C14.97 19 19 14.97 19 10C19 5.03 14.97 1 10 1ZM12.5 7H11.5C11.22 7 11 7.22 11 7.5V8.5H12.5L12.25 10H11V15H9V10H8V8.5H9V7C9 5.9 9.9 5 11 5H12.5V7Z" fill="currentColor"/></svg>
+            </a>
+            <a href="#" aria-label="Instagram">
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><rect x="2" y="2" width="16" height="16" rx="4" stroke="currentColor" stroke-width="1.5"/><circle cx="10" cy="10" r="4" stroke="currentColor" stroke-width="1.5"/><circle cx="14.5" cy="5.5" r="1" fill="currentColor"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer__col">
+          <h4>Palvelut</h4>
+          <ul>
+            <li><a href="#palvelut">Kotisiivous</a></li>
+            <li><a href="#palvelut">Toimistosiivous</a></li>
+            <li><a href="#palvelut">Muuttosiivous</a></li>
+            <li><a href="#palvelut">Ikkunanpesu</a></li>
+            <li><a href="#palvelut">Rakennussiivous</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__col">
+          <h4>Tietoa</h4>
+          <ul>
+            <li><a href="#miksi-me">Miksi me</a></li>
+            <li><a href="#hinnat">Hinnasto</a></li>
+            <li><a href="#alue">Palvelualue</a></li>
+            <li><a href="#arvostelut">Arvostelut</a></li>
+            <li><a href="#ukk">UKK</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__col">
+          <h4>Yhteystiedot</h4>
+          <ul class="footer__contact">
+            <li>
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M14 11.5L10.5 10L9 12C7 11 5 9 4 7L6 5.5L4.5 2L1 3C1 9.6 6.4 15 13 15L14 11.5Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg>
+              <a href="tel:+358401234567">040 123 4567</a>
+            </li>
+            <li>
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><rect x="1" y="3" width="14" height="10" rx="2" stroke="currentColor" stroke-width="1.5"/><path d="M1 5L8 9L15 5" stroke="currentColor" stroke-width="1.5"/></svg>
+              <a href="mailto:info@puhtausplus.fi">info@puhtausplus.fi</a>
+            </li>
+            <li>
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M8 1C5.24 1 3 3.24 3 6C3 9.5 8 15 8 15C8 15 13 9.5 13 6C13 3.24 10.76 1 8 1Z" stroke="currentColor" stroke-width="1.5"/><circle cx="8" cy="6" r="2" stroke="currentColor" stroke-width="1.5"/></svg>
+              <span>Espoo &amp; Helsinki</span>
+            </li>
+            <li>
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><rect x="1" y="1" width="14" height="14" rx="2" stroke="currentColor" stroke-width="1.5"/><path d="M1 5H15M5 1V15" stroke="currentColor" stroke-width="1.5"/></svg>
+              <span>Y-tunnus: 1234567-8</span>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+      <div class="footer__bottom">
+        <p>&copy; 2026 PuhtausPlus Oy. Kaikki oikeudet pidätetään.</p>
+        <div class="footer__bottom-links">
+          <a href="#">Tietosuojaseloste</a>
+          <a href="#">Käyttöehdot</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    /* Mobile navigation toggle */
+    const hamburger = document.getElementById('hamburger');
+    const navLinks = document.getElementById('navLinks');
+    hamburger.addEventListener('click', () => {
+      navLinks.classList.toggle('nav__links--open');
+      hamburger.classList.toggle('nav__hamburger--open');
+    });
+
+    /* Close mobile nav on link click */
+    navLinks.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => {
+        navLinks.classList.remove('nav__links--open');
+        hamburger.classList.remove('nav__hamburger--open');
+      });
+    });
+
+    /* Sticky nav background */
+    const nav = document.getElementById('nav');
+    window.addEventListener('scroll', () => {
+      nav.classList.toggle('nav--scrolled', window.scrollY > 50);
+    });
+
+    /* FAQ accordion */
+    document.querySelectorAll('.faq__question').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const item = btn.parentElement;
+        const isOpen = item.classList.contains('faq__item--open');
+        document.querySelectorAll('.faq__item--open').forEach(i => i.classList.remove('faq__item--open'));
+        if (!isOpen) item.classList.add('faq__item--open');
+        btn.setAttribute('aria-expanded', !isOpen);
+      });
+    });
+
+    /* Form submission */
+    document.getElementById('quoteForm').addEventListener('submit', (e) => {
+      e.preventDefault();
+      const form = e.target;
+      const btn = form.querySelector('button[type="submit"]');
+      btn.textContent = 'Kiitos! Otamme yhteyttä pian.';
+      btn.disabled = true;
+      btn.style.opacity = '0.7';
+      setTimeout(() => {
+        btn.textContent = 'Lähetä tarjouspyyntö';
+        btn.disabled = false;
+        btn.style.opacity = '1';
+        form.reset();
+      }, 4000);
+    });
+
+    /* Smooth scroll for anchor links */
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', (e) => {
+        const target = document.querySelector(anchor.getAttribute('href'));
+        if (target) {
+          e.preventDefault();
+          target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      });
+    });
+  </script>
+
+</body>
+</html>
